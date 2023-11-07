@@ -9,7 +9,7 @@
     "jsx": "react-jsx",
     "noLib": false,
     "allowJs": true,
-    "suppressImplicitAnyIndexErrors": true,
+    // "suppressImplicitAnyIndexErrors": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "baseUrl": "./src/",
