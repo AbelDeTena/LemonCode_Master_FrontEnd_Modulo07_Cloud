@@ -16,6 +16,7 @@ COPY ./server/package-lock.json ./
 COPY ./server/index.js ./
 RUN  npm ci --only=production
 
+EXPOSE 8083
 ENV PORT=8083
 CMD node index.js
 
